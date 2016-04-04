@@ -1,0 +1,25 @@
+{
+  "name": "pecuilar",
+  "version": "0.0.0",
+  "description": "A user interface? How peculiar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test uwx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnycopperstone/pecuilar.git"
+  },
+  "keywords": [
+    "user",
+    "interface",
+    "style",
+    "vain"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnycopperstone/pecuilar/issues"
+  },
+  "homepage": "https://github.com/johnnycopperstone/pecuilar#readme"
+}
