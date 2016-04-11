@@ -28,6 +28,7 @@
   "bugs": {
     "url": "https://github.com/johnnycopperstone/pecuilar/issues"
   },
+  "private": "true",
   "homepage": "https://github.com/johnnycopperstone/pecuilar#readme",
   "devDependencies": {
     "babel-core": "^6.7.4",
