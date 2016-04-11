@@ -4,7 +4,14 @@
   "description": "A user interface? How peculiar.",
   "main": "index.js",
   "scripts": {
-    "test": "test uwx"
+    "build": "npm run build-guide && npm run build-stylus && npm run copy-assets",
+    "build-guide": "gulp theo",
+    "build-stylus": "stylus ./lib/index.styl --out ./build/a-pecuilar-guide-to.css",
+    "harness-guide": "node ./node_modules/ui-harness/start --entry=./harness/sumin.js",
+    "copy-assets": "ncp lib/assets build"
+  },
+  "bin": {
+    "gulp": "./node_modules/gulp/bin/gulp.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +28,19 @@
   "bugs": {
     "url": "https://github.com/johnnycopperstone/pecuilar/issues"
   },
-  "homepage": "https://github.com/johnnycopperstone/pecuilar#readme"
+  "homepage": "https://github.com/johnnycopperstone/pecuilar#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "gulp": "^3.9.1",
+    "lodash": "^4.8.2",
+    "ncp": "^2.0.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "stylus": "^0.54.2",
+    "theo": "^4.2.0",
+    "theo-plugin-formats": "^0.1.1",
+    "ui-harness": "^3.7.7"
+  }
 }

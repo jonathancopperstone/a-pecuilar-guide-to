@@ -1,0 +1,28 @@
+{
+  "global": {
+
+    "type": "color",
+    "category": "color",
+    "comment": "Background and trimming colours."
+  },
+
+  "props": {
+
+    "bcolour-main": {
+      "value": "#FFF"
+    },
+
+    "bcolour-compliment": {
+      "value": "#F6F8F9"
+    },
+
+    "bcolour-compliment-off-brand": {
+      "value": "#E8F7FC"
+    },
+
+    "bcolour-contrast": {
+      "value": "#364549"
+    }
+
+  }
+}

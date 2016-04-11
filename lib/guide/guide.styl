@@ -1,0 +1,158 @@
+$colour-brand = rgb(27, 180, 225);
+$colour-brand-compliment = rgb(20, 153, 192);
+$colour-brand-contrast = rgb(17, 93, 126);
+$bcolour-main = rgb(255, 255, 255);
+$bcolour-compliment = rgb(246, 248, 249);
+$bcolour-compliment-off-brand = rgb(232, 247, 252);
+$bcolour-contrast = rgb(54, 69, 73);
+$typo = rgb(35, 35, 35);
+$typo-link = colour-brand;
+$typo-link-hover = colour-brand-contrast;
+
+  a {
+    
+    
+    color: $typo-link; 
+    
+    
+  }
+  
+
+  a:hover {
+    
+    
+    color: $typo-link-hover; 
+    
+    
+  }
+  
+
+  .font-regular {
+    
+    
+    font-family: pnova-reg, sans-serif; 
+		font-size: 14px; 
+		color: $typo; 
+    
+    
+  }
+  
+
+  .font-bold {
+    
+    
+    font-family: pnova-semibold, sans-serif; 
+		font-size: 14px; 
+		color: $typo; 
+    
+    
+  }
+  
+
+  @font-face {
+    font-family: 'pnova-reg';
+    src: url('fonts/proxima-nova-soft-regular-webfont.eot');
+    src: url('fonts/proxima-nova-soft-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proxima-nova-soft-regular-webfont.woff') format('woff'),
+         url('fonts/proxima-nova-soft-regular-webfont.ttf') format('truetype'),
+         url('fonts/proxima-nova-soft-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  @font-face {
+    font-family: 'pnova-med';
+    src: url('fonts/proxima-nova-soft-medium-webfont.eot');
+    src: url('fonts/proxima-nova-soft-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proxima-nova-soft-medium-webfont.woff') format('woff'),
+         url('fonts/proxima-nova-soft-medium-webfont.ttf') format('truetype'),
+         url('fonts/proxima-nova-soft-medium-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  @font-face {
+    font-family: 'pnova-semibold';
+    src: url('fonts/proxima-nova-soft-semibold-webfont.eot');
+    src: url('fonts/proxima-nova-soft-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proxima-nova-soft-semibold-webfont.woff') format('woff'),
+         url('fonts/proxima-nova-soft-semibold-webfont.ttf') format('truetype'),
+         url('fonts/proxima-nova-soft-semibold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  @font-face {
+    font-family: 'pnova-bold';
+    src: url('fonts/proxima-nova-soft-bold-webfont.eot');
+    src: url('fonts/proxima-nova-soft-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proxima-nova-soft-bold-webfont.woff') format('woff'),
+         url('fonts/proxima-nova-soft-bold-webfont.ttf') format('truetype'),
+         url('fonts/proxima-nova-soft-bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+  h2 {
+    
+    
+    color: $colour-brand-compliment; 
+		font-size: 20px; 
+    
+    
+  }
+  
+
+  h3 {
+    
+    
+    color: $colour-brand-compliment; 
+		font-size: 20px; 
+    @extend .font-bold;
+    
+  }
+  
+
+  h4 {
+    
+    
+    color: $colour-brand-compliment; 
+		font-size: 20px; 
+    @extend .font-bold;
+    
+  }
+  
+
+  h5 {
+    
+    
+    color: $colour-brand-compliment; 
+		font-size: 12px; 
+		text-transform: uppercase; 
+    
+    
+  }
+  
+
+  .on-dark {
+    p, label {
+      
+    color: white; 
+    
+    }
+  }
+  
+
+  .on-light {
+    
+    
+    color: $typo; 
+    
+    
+  }
+  

@@ -1,0 +1,31 @@
+{
+  "global": {
+    "category": "fontface",
+    "path-prefix": "fonts/proxima-nova-soft-",
+    "type": "webfont",
+    "value": ""
+  },
+
+  "props": {
+
+    "regular": {
+      "name": "pnova-reg",
+      "path": "regular-webfont"
+    },
+
+    "medium": {
+      "name": "pnova-med",
+      "path": "medium-webfont"
+    },
+
+    "semibold": {
+      "name": "pnova-semibold",
+      "path": "semibold-webfont"
+    },
+
+    "bold": {
+      "name": "pnova-bold",
+      "path": "bold-webfont"
+    }
+  }
+}

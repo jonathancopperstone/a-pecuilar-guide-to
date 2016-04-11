@@ -1,0 +1,15 @@
+{
+  "imports": [
+
+    "palette/_brand.json",
+    "palette/_backgrounds-trimmings.json",
+
+    "typography/_colours.json",
+    "typography/_links.json",
+    "typography/_typography.json",
+    "typography/_font.json",
+    "typography/_headings.json",
+
+    "modes/_colour.json"
+  ]
+}

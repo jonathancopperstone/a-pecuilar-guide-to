@@ -1,0 +1,20 @@
+/*
+These are stylus mixins, designed
+to override default css properties,
+for example: border-radius, and replace
+it with vendor prefixed properties for
+better support. */
+
+border-radius() {
+
+    border-radius: arguments;
+    -moz-border-radius: arguments;
+    -webkit-border-radius: arguments;
+}
+
+box-shadow() {
+
+    box-shadow: arguments;
+    -moz-box-shadow: arguments;
+    -webkit-box-shadow: arguments;
+}

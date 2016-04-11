@@ -1,0 +1,29 @@
+{
+  "global": {
+    "value": "",
+    "TODO": "change categ name to css-block"
+  },
+
+  "props": {
+
+    "font-regular": {
+      "category": "class",
+      "type": "class",
+      "props": {
+        "font-family": "pnova-reg, sans-serif",
+        "font-size": "14px",
+        "color": "$typo"
+      }
+    },
+
+    "font-bold": {
+      "category": "class",
+      "type": "class",
+      "props": {
+        "font-family": "pnova-semibold, sans-serif",
+        "font-size": "14px",
+        "color": "$typo"
+      }
+    }
+  }
+}

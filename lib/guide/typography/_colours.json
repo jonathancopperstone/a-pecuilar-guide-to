@@ -1,0 +1,28 @@
+{
+  "imports": [
+    "../palette/_brand.json",
+    "../palette/_backgrounds-trimmings.json"
+  ],
+
+  "global": {
+    "category": "color"
+  },
+
+  "props": {
+
+    "typo": {
+      "value": "#232323",
+      "type": "color"
+    },
+
+    "typo-link": {
+      "value": "colour-brand",
+      "type": "aliased-color"
+    },
+
+    "typo-link-hover": {
+      "value": "colour-brand-contrast",
+      "type": "aliased-color"
+    }
+  }
+}

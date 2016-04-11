@@ -1,0 +1,36 @@
+.css-triangle {
+
+	width: 0;
+	height: 0;
+	border-radius: 3px;
+}
+
+$arrow-down(size, colour) {
+
+	@extend .css-triangle;
+	border-left: size solid transparent;
+	border-right: size solid transparent;
+	border-top: size + 2px solid colour;
+}
+
+$arrow-up(size, colour) {
+
+	@extend .css-triangle;
+	border-left: size solid transparent;
+	border-right: size solid transparent;
+	border-bottom: size + 2px solid colour;
+}
+
+$arrow-right(size, colour) {
+	@extend .css-triangle;
+	border-top: size solid transparent;
+	border-bottom: size solid transparent;
+	border-left: size + 2px solid colour;
+}
+
+$arrow-left(size, colour) {
+	@extend .css-triangle;
+	border-top: size solid transparent;
+	border-bottom: size solid transparent;
+	border-right: size + 2px solid colour;
+}

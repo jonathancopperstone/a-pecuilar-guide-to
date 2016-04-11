@@ -1,0 +1,123 @@
+/*
+Clear any margins and padding
+on elements which usually come
+pre-defined by browsers. */
+
+body, div, p, figure,
+h1, h2, h3, h4, h5, h6 {
+
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Ensure element sizing is uniform
+across all browsers for all elements.
+(how px dimensions are calculated) */
+
+*,
+*:before,
+*:after {
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/*
+Link related reset. Clear out
+any border / outline styles,
+and make all states the same. */
+
+a:link,
+a:active,
+a:visited {
+
+	text-decoration: none;
+	background: transparent;
+}
+
+a:focus,
+a:active,
+a:hover {
+
+    outline: 0;
+}
+
+/*
+Completely remove defualt list
+styles. Each list generally will be
+unique so there's no need to clear
+this for each one. */
+
+ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+Define how labels break words.
+Need to add other elements too. */
+
+label {
+
+	word-break: break-word;
+}
+
+/*
+Remove img border applied when it
+lives inside an 'a' tag. (IE8/9) */
+
+img {
+
+    border: 0;
+}
+
+/*
+Correct overflow displayed
+oddly in IE 9. */
+
+svg:not(:root) {
+
+  overflow: hidden;
+}
+
+/*
+Remove inner padding
+and search cancel button in
+Safari 5 and Chrome on OS X. */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+
+    -webkit-appearance: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+
+    -webkit-appearance: none;
+}
+
+/*
+Remove inner focus from button
+elements in Firefox. */
+
+button::-moz-focus-inner {
+
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/*
+Remove most spacing
+between table cells. */
+
+table {
+
+  border-collapse: collapse;
+  border-spacing: 0;
+}

@@ -1,0 +1,32 @@
+.scaffold {
+
+  display: flex;
+
+  &.row {
+    flex-flow: row;
+    align-items: center;
+  }
+
+  &.col {
+    flex-flow: column;
+  }
+
+  &.bubble-spacing {
+    padding: 10px;
+    > * {
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &.capture-spacing {
+    > * {
+      margin: 10px 10px 10px 0;
+      &:first-child {
+        margin-left: 10px;
+      }
+    }
+  }
+}

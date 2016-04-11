@@ -1,0 +1,46 @@
+{
+  "global": {
+    "value": "",
+    "category": "class-noclass",
+    "type": "class-noclass"
+  },
+
+  "props": {
+
+    "h1": {
+      "comment": "Reserved for the heading"
+    },
+
+    "h2": {
+      "props": {
+        "color": "$colour-brand-compliment",
+        "font-size": "20px"
+      }
+    },
+
+    "h3": {
+      "props": {
+        "color": "$colour-brand-compliment",
+        "font-size": "20px"
+      },
+      "extend": ["font-bold"]
+    },
+
+    "h4": {
+      "props": {
+        "color": "$colour-brand-compliment",
+        "font-size": "20px"
+      },
+      "extend": ["font-bold"]
+    },
+
+    "h5": {
+      "props": {
+        "color": "$colour-brand-compliment",
+        "font-size": "12px",
+        "text-transform": "uppercase"
+      }
+    }
+
+  }
+}

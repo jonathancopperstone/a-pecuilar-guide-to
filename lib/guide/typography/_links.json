@@ -1,0 +1,23 @@
+{
+  "global": {
+    "category": "class-noclass",
+    "value": "",
+    "type": "class-noclass"
+  },
+
+  "props": {
+
+    "a": {
+      "props": {
+        "color": "$typo-link"
+      }
+    },
+
+    "a:hover": {
+      "props": {
+        "color": "$typo-link-hover"
+      }
+    }
+
+  }
+}

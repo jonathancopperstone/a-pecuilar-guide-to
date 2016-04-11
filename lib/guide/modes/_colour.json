@@ -1,0 +1,28 @@
+{
+  "global": {
+    "value": "",
+    "type": "class",
+    "category": "class",
+    "comment": "Define hooks for defining the font colours of an element's children."
+  },
+
+  "props": {
+
+    "on-dark": {
+      "props": {
+        "color": "white"
+      },
+      "targets": [
+        "p", "label"
+      ]
+    },
+
+    "on-light": {
+      "props": {
+        "color": "$typo"
+      },
+      "targets": []
+    }
+
+  }
+}
