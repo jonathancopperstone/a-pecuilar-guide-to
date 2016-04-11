@@ -10,9 +10,6 @@
     "harness-guide": "node ./node_modules/ui-harness/start --entry=./harness/sumin.js",
     "copy-assets": "ncp lib/assets build"
   },
-  "bin": {
-    "gulp": "./node_modules/gulp/bin/gulp.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnnycopperstone/pecuilar.git"
