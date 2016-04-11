@@ -2,7 +2,7 @@
   "name": "a-pecuilar-guide-to",
   "version": "0.0.0",
   "description": "A user interface? How peculiar.",
-  "main": "index.js",
+  "main": "build/a-pecuilar-guide-to.css",
   "scripts": {
     "build": "npm run build-guide && npm run build-stylus && npm run copy-assets",
     "build-guide": "gulp theo",

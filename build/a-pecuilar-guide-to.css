@@ -1,0 +1,243 @@
+a {
+  color: colour-brand;
+}
+a:hover {
+  color: colour-brand-contrast;
+}
+.font-regular,
+body {
+  font-family: pnova-reg, sans-serif;
+  font-size: 14px;
+  color: #232323;
+}
+.font-bold,
+h3,
+h4 {
+  font-family: pnova-semibold, sans-serif;
+  font-size: 14px;
+  color: #232323;
+}
+@font-face {
+  font-family: 'pnova-reg';
+  src: url("fonts/proxima-nova-soft-regular-webfont.eot");
+  src: url("fonts/proxima-nova-soft-regular-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/proxima-nova-soft-regular-webfont.woff") format('woff'), url("fonts/proxima-nova-soft-regular-webfont.ttf") format('truetype'), url("fonts/proxima-nova-soft-regular-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pnova-med';
+  src: url("fonts/proxima-nova-soft-medium-webfont.eot");
+  src: url("fonts/proxima-nova-soft-medium-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/proxima-nova-soft-medium-webfont.woff") format('woff'), url("fonts/proxima-nova-soft-medium-webfont.ttf") format('truetype'), url("fonts/proxima-nova-soft-medium-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pnova-semibold';
+  src: url("fonts/proxima-nova-soft-semibold-webfont.eot");
+  src: url("fonts/proxima-nova-soft-semibold-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/proxima-nova-soft-semibold-webfont.woff") format('woff'), url("fonts/proxima-nova-soft-semibold-webfont.ttf") format('truetype'), url("fonts/proxima-nova-soft-semibold-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pnova-bold';
+  src: url("fonts/proxima-nova-soft-bold-webfont.eot");
+  src: url("fonts/proxima-nova-soft-bold-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/proxima-nova-soft-bold-webfont.woff") format('woff'), url("fonts/proxima-nova-soft-bold-webfont.ttf") format('truetype'), url("fonts/proxima-nova-soft-bold-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h2 {
+  color: #1499c0;
+  font-size: 20px;
+}
+h3 {
+  color: #1499c0;
+  font-size: 20px;
+}
+h4 {
+  color: #1499c0;
+  font-size: 20px;
+}
+h5 {
+  color: #1499c0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.on-dark p,
+.on-dark label {
+  color: #fff;
+}
+.on-light {
+  color: #232323;
+}
+body,
+div,
+p,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  background: transparent;
+}
+a:focus,
+a:active,
+a:hover {
+  outline: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+label {
+  word-break: break-word;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.hide {
+  display: none;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.css-triangle {
+  width: 0;
+  height: 0;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.scaffold {
+  display: flex;
+}
+.scaffold.row {
+  flex-flow: row;
+  align-items: center;
+}
+.scaffold.col {
+  flex-flow: column;
+}
+.scaffold.bubble-spacing {
+  padding: 10px;
+}
+.scaffold.bubble-spacing > * {
+  margin-right: 10px;
+}
+.scaffold.bubble-spacing > *:last-child {
+  margin-right: 0;
+}
+.scaffold.capture-spacing > * {
+  margin: 10px 10px 10px 0;
+}
+.scaffold.capture-spacing > *:first-child {
+  margin-left: 10px;
+}
+a {
+  color: colour-brand;
+}
+a:hover {
+  color: colour-brand-contrast;
+}
+.font-regular,
+body {
+  font-family: pnova-reg, sans-serif;
+  font-size: 14px;
+  color: #232323;
+}
+.font-bold,
+h3,
+h4 {
+  font-family: pnova-semibold, sans-serif;
+  font-size: 14px;
+  color: #232323;
+}
+@font-face {
+  font-family: 'pnova-reg';
+  src: url("fonts/proxima-nova-soft-regular-webfont.eot");
+  src: url("fonts/proxima-nova-soft-regular-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/proxima-nova-soft-regular-webfont.woff") format('woff'), url("fonts/proxima-nova-soft-regular-webfont.ttf") format('truetype'), url("fonts/proxima-nova-soft-regular-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pnova-med';
+  src: url("fonts/proxima-nova-soft-medium-webfont.eot");
+  src: url("fonts/proxima-nova-soft-medium-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/proxima-nova-soft-medium-webfont.woff") format('woff'), url("fonts/proxima-nova-soft-medium-webfont.ttf") format('truetype'), url("fonts/proxima-nova-soft-medium-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pnova-semibold';
+  src: url("fonts/proxima-nova-soft-semibold-webfont.eot");
+  src: url("fonts/proxima-nova-soft-semibold-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/proxima-nova-soft-semibold-webfont.woff") format('woff'), url("fonts/proxima-nova-soft-semibold-webfont.ttf") format('truetype'), url("fonts/proxima-nova-soft-semibold-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pnova-bold';
+  src: url("fonts/proxima-nova-soft-bold-webfont.eot");
+  src: url("fonts/proxima-nova-soft-bold-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/proxima-nova-soft-bold-webfont.woff") format('woff'), url("fonts/proxima-nova-soft-bold-webfont.ttf") format('truetype'), url("fonts/proxima-nova-soft-bold-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+h2 {
+  color: #1499c0;
+  font-size: 20px;
+}
+h3 {
+  color: #1499c0;
+  font-size: 20px;
+}
+h4 {
+  color: #1499c0;
+  font-size: 20px;
+}
+h5 {
+  color: #1499c0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.on-dark p,
+.on-dark label {
+  color: #fff;
+}
+.on-light {
+  color: #232323;
+}
