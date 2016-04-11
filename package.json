@@ -40,5 +40,8 @@
     "theo": "^4.2.0",
     "theo-plugin-formats": "^0.1.1",
     "ui-harness": "^3.7.7"
-  }
+  },
+  "files": [
+    "build"
+  ]
 }
